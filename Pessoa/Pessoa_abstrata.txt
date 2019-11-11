@@ -2,7 +2,7 @@ public abstract class Pessoa_abstrata {
 	private String nome;
 	private String endereco;
 	private String contato;
-	public Pessoa_abstrata(){
+	public Pessoa_abstrata(String nome, String endereco, String contato){
 		this.nome=nome;
 		this.endereco=endereco;
 		this.contato=contato;
